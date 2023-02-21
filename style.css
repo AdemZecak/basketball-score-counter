@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    margin:30%;
+    justify-content: space-around;
+    background-color:rgb(50, 50, 125);
+    border-radius: 5px;
+
+}
+
+h3 {
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50;
+}
+
+#number_home {
+    display: flex;
+    justify-content: center;
+    color:rgb(225, 73, 73);
+    font-size:600%;
+    font-family:'alarm clock', sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0% 0% 30% 0%;
+}
+
+#number_guest {
+    display: flex;
+    justify-content: center;
+    color:rgb(225, 73, 73);
+    font-size:600%;
+    font-family:'alarm clock', sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0% 0% 28% 0%;
+}
+
+.plus_nums {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+div span {
+    margin-left:1%;
+    padding: 2%;
+    margin-right: 10px; /* add some spacing between the numbers */
+}
+
+span {
+    font-size:120%;
+    color:white;
+    border-style: solid;
+    border-color: rgb(185, 139, 228);
+    border-radius:5px;
+    margin-bottom: 20%;
+
+}
+
+span:hover {
+    color:brown;
+    cursor:pointer;
+}
